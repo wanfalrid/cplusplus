@@ -19,13 +19,13 @@ int main ()
 {
     
     int pil;
+    do {
     garis ();
     cout << "----------MENU----------\n";
     garis ();
     cout << "1. Luas Segitiga\n";
     cout << "2. Luas Persegi Panjang\n";
     garis ();
-    do {
     cout << "Pilih Menu : "; cin >> pil;
     switch (pil)
     {
